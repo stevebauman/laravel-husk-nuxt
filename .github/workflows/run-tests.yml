@@ -1,4 +1,4 @@
-name: run-nuxt-tests
+name: run-tests
 
 on:
   push:
