@@ -29,7 +29,7 @@ jobs:
 
       - name: Upgrade Chrome Driver
         working-directory: ./browser
-        run: php application dusk:chrome-driver
+        run: php application dusk:chrome-driver --detect
 
       - name: Run Dusk Tests
         working-directory: ./browser
